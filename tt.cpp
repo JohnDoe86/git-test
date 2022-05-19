@@ -338,3 +338,13 @@ inline DefaultDeviceAllocator create_default_device_allocator(std::size_t max_ca
 
 } // namespace claragenomics
 
+
+void fun(int t)
+{
+	if(t<0)
+	{
+		fun(t);
+		t--;
+	}
+}
+
