@@ -10,3 +10,12 @@ void Rule11_1_example_15(void)
 	pfp16 pfp1;
 	(void*)(pfp1);
 }
+
+int fun(int t)
+{
+	if (t<10)
+	{
+		fun(t);
+		t--;
+	}
+}
